@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resultado Evaluación</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5 mb-5">
+
+    <div class="main-card">
+
+        <div class="text-center mb-4">
+
+            <h1 class="titulo">
+                📊 Resultado de Evaluación
+            </h1>
+
+            <p class="descripcion">
+                Evaluación emocional realizada correctamente.
+            </p>
+
+        </div>
+
+        <!-- USUARIO -->
+        <div class="alert alert-secondary">
+
+            <strong>👤 Usuario:</strong>
+            {{ nombre }}
+
+        </div>
+
+        <!-- RESULTADO -->
+        <div class="alert alert-primary text-center">
+
+            <h3>
+                {{ resultado }}
+            </h3>
+
+            <h5>
+                Puntaje general:
+                {{ puntaje }}
+            </h5>
+
+        </div>
+
+        <!-- TABLA -->
+        <h4 class="mt-4 mb-3">
+            🧠 Niveles emocionales
+        </h4>
+
+        <table class="table table-bordered text-center">
+
+            <thead class="table-dark">
+
+                <tr>
+
+                    <th>Área</th>
+
+                    <th>Nivel</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Estrés</td>
+
+                    <td>{{ nivel_estres }}</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Ansiedad</td>
+
+                    <td>{{ nivel_ansiedad }}</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Autoestima</td>
+
+                    <td>{{ nivel_autoestima }}</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Bienestar</td>
+
+                    <td>{{ nivel_bienestar }}</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <!-- ESCALA -->
+        <div class="alert alert-light mt-4">
+
+            <strong>📌 Escala interpretativa:</strong>
+
+            <br><br>
+
+            🟢 Bajo = estabilidad emocional adecuada
+
+            <br>
+
+            🟡 Moderado = atención preventiva emocional
+
+            <br>
+
+            🔴 Alto = riesgo emocional elevado
+
+        </div>
+
+        <!-- ANÁLISIS -->
+        <div class="mt-5">
+
+            <h4>
+                🧠 Análisis emocional
+            </h4>
+
+            <p>
+                {{ mensaje }}
+            </p>
+
+        </div>
+
+        <!-- RECOMENDACIONES -->
+        <div class="mt-4">
+
+            <h4>
+                ✅ Recomendaciones
+            </h4>
+
+            <p>
+                {{ recomendacion }}
+            </p>
+
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="alert alert-info mt-5 text-center">
+
+            <h4>
+                📞 Atención psicológica personalizada
+            </h4>
+
+            <p>
+
+                Si desea orientación profesional
+                o acompañamiento psicológico,
+                puede comunicarse directamente
+                con el psicólogo:
+
+            </p>
+
+            <strong>
+                Josef Manuel González Romero
+            </strong>
+
+            <br><br>
+
+            <!-- BOTÓN WHATSAPP -->
+            <a
+
+                href="https://wa.me/573138379578?text=Hola%20doctor,%20realicé%20la%20evaluación%20psicológica%20y%20deseo%20más%20información."
+
+                target="_blank"
+
+                class="btn btn-success boton"
+
+            >
+
+                💬 Hablar por WhatsApp
+
+            </a>
+
+        </div>
+
+        <!-- BOTÓN -->
+        <div class="text-center mt-5">
+
+            <a
+                href="/"
+                class="btn btn-primary boton"
+            >
+                🔄 Nueva evaluación
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

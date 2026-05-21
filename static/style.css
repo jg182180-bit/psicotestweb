@@ -1,0 +1,229 @@
+body {
+
+    background: #f4f7fb;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* -------------------------------- */
+/* TITULOS */
+/* -------------------------------- */
+
+.titulo-principal {
+
+    font-size: 45px;
+
+    font-weight: bold;
+
+    color: #1e3a5f;
+
+}
+
+.subtitulo-principal {
+
+    font-size: 18px;
+
+    color: #555;
+
+}
+
+/* -------------------------------- */
+/* TARJETAS PRINCIPALES */
+/* -------------------------------- */
+
+.card-home {
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding: 30px;
+
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+
+    height: 100%;
+
+}
+
+.card-home h2 {
+
+    color: #1e3a5f;
+
+    margin-bottom: 20px;
+
+}
+
+.card-home ul {
+
+    margin-top: 20px;
+
+}
+
+.card-home li {
+
+    margin-bottom: 10px;
+
+}
+
+/* -------------------------------- */
+/* BOTONES */
+/* -------------------------------- */
+
+.boton-home {
+
+    padding: 12px 25px;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+}
+
+.boton {
+
+    padding: 12px 30px;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+}
+
+/* -------------------------------- */
+/* FORMULARIOS */
+/* -------------------------------- */
+
+.main-card {
+
+    background: white;
+
+    max-width: 850px;
+
+    margin: auto;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+
+}
+
+.titulo {
+
+    color: #1e3a5f;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+
+}
+
+.descripcion {
+
+    color: #666;
+
+    margin-bottom: 35px;
+
+}
+
+.subtitulo {
+
+    color: #1e3a5f;
+
+    margin-bottom: 25px;
+
+}
+
+/* -------------------------------- */
+/* PREGUNTAS */
+/* -------------------------------- */
+
+.pregunta {
+
+    margin-bottom: 22px;
+
+}
+
+.pregunta label {
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+    display: block;
+
+    color: #333;
+
+}
+
+/* -------------------------------- */
+/* PANEL PROFESIONAL */
+/* -------------------------------- */
+
+.card {
+
+    border: none;
+
+    border-radius: 20px;
+
+}
+
+/* -------------------------------- */
+/* ALERTAS */
+/* -------------------------------- */
+
+.alert {
+
+    text-align: center;
+
+    border-radius: 12px;
+
+    font-size: 15px;
+
+}
+
+/* -------------------------------- */
+/* TEXTAREA */
+/* -------------------------------- */
+
+textarea {
+
+    resize: none;
+
+}
+
+/* -------------------------------- */
+/* RESPONSIVE */
+/* -------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+    .titulo-principal {
+
+        font-size: 32px;
+
+    }
+
+    .main-card {
+
+        padding: 20px;
+
+    }
+
+    .titulo {
+
+        font-size: 26px;
+
+    }
+
+    .card-home {
+
+        padding: 20px;
+
+    }
+
+}
